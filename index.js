@@ -18,6 +18,7 @@ app.use(express.json());
 app.use("/api/products",productRoute)
 
 
+
 mongoose.connect("mongodb+srv://hamletgalstyan20:RekYNAPOiuXMXY7f@nodedbapi.qpuz730.mongodb.net/nodeDBApi?retryWrites=true&w=majority&appName=nodeDBApi")
     .then(() => {
         console.log("connected to databse");
